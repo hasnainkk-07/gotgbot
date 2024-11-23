@@ -3,9 +3,9 @@ package handlers
 import (
 	"fmt"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/filters"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers/filters"
 )
 
 type ChatMember struct {

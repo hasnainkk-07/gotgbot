@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/conversation"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/filters/message"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers/conversation"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers/filters/message"
 )
 
 // This bot demonstrates a basic conversation handler. Conversation handlers help you to track states across multiple

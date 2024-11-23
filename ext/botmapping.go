@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2"
 )
 
 // botData Keeps track of the necessary update channels for each gotgbot.Bot.

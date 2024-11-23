@@ -1,7 +1,7 @@
 package ext
 
 import (
-	"github.com/PaulSonOfLars/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2"
 )
 
 // Processor is used to provide an entry point for wrapping internal Dispatcher logic, such that the basic logic can be

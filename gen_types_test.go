@@ -13,7 +13,7 @@ func TestInlineQueriesHavePointers(t *testing.T) {
 	// value, so doesn't include it in the JSON marshalling, since it has an omitempty tag. We therefore use a pointer
 	// here to differentiate between empty field (nil), and empty value ("").
 	// Reported as a bug here: https://t.me/GotgbotChat/4537
-	// Fixed here: https://github.com/PaulSonOfLars/gotgbot/pull/31, and again here https://github.com/PaulSonOfLars/gotgbot/pull/63
+	// Fixed here: https://github.com/hasnainkk-07/gotgbot/pull/31, and again here https://github.com/hasnainkk-07/gotgbot/pull/63
 
 	stringValue := "Foo"
 	_ = InlineKeyboardButton{

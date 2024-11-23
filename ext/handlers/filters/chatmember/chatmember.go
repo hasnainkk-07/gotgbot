@@ -1,8 +1,8 @@
 package chatmember
 
 import (
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/filters"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers/filters"
 )
 
 func All(_ *gotgbot.ChatMemberUpdated) bool {

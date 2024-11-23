@@ -4,8 +4,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
 )
 
 // Command is the go-to handler for setting up Commands in your bot. By default, it will use telegram-native commands

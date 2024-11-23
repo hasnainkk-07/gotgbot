@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/filters/message"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers/filters/message"
 )
 
 // This bot shows how to gather various prometheus metrics from the dispatcher and bot client, such that they can be

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers"
 )
 
 // This bot shows how to use this library to server a webapp.

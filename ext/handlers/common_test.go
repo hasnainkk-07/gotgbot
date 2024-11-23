@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
 )
 
 func NewTestBot() *gotgbot.Bot {

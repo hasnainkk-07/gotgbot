@@ -12,8 +12,8 @@ import (
 )
 
 const (
-	schemaURL          = "https://raw.githubusercontent.com/PaulSonOfLars/telegram-bot-api-spec/%s/api.json"
-	latestCommitURL    = "https://api.github.com/repos/PaulSonOfLars/telegram-bot-api-spec/commits?page=1&per_page=1"
+	schemaURL          = "https://raw.githubusercontent.com/hasnainkk-07/telegram-bot-api-spec/%s/api.json"
+	latestCommitURL    = "https://api.github.com/repos/hasnainkk-07/telegram-bot-api-spec/commits?page=1&per_page=1"
 	specCommitFileName = "spec_commit"
 )
 

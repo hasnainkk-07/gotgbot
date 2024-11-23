@@ -3,7 +3,7 @@ package ext
 import (
 	"errors"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2"
 )
 
 type DummyHandler struct {

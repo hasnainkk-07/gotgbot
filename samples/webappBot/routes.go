@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"text/template"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
 )
 
 var indexTmpl = template.Must(template.ParseFiles("index.html"))

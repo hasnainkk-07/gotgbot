@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/filters/inlinequery"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers/filters/inlinequery"
 )
 
 // This bot is as basic as inline query bots can get. It simply links the bot library every time.
@@ -70,10 +70,10 @@ func source(b *gotgbot.Bot, ctx *ext.Context) error {
 	_, err := ctx.InlineQuery.Answer(b, []gotgbot.InlineQueryResult{gotgbot.InlineQueryResultArticle{
 		Id:      strconv.Itoa(rand.Int()),
 		Title:   "Bot Library",
-		Url:     "github.com/PaulSonOfLars/gotgbot",
+		Url:     "github.com/hasnainkk-07/gotgbot",
 		HideUrl: true,
 		InputMessageContent: gotgbot.InputTextMessageContent{
-			MessageText: "Bot library source code:\ngithub.com/PaulSonOfLars/gotgbot",
+			MessageText: "Bot library source code:\ngithub.com/hasnainkk-07/gotgbot",
 		},
 		Description: "Link to the bot source code",
 	}}, &gotgbot.AnswerInlineQueryOpts{

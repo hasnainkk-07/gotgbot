@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers"
-	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/filters/message"
+	"github.com/hasnainkk-07/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2/ext"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers"
+	"github.com/hasnainkk-07/gotgbot/v2/ext/handlers/filters/message"
 )
 
 // This bot demonstrates how to create echo bot that works with multiple bot instances at once.

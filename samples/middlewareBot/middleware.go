@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/PaulSonOfLars/gotgbot/v2"
+	"github.com/hasnainkk-07/gotgbot/v2"
 )
 
 // Define middleware BotClient.
