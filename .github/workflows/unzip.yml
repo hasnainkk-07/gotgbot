@@ -1,0 +1,31 @@
+Name: Unzip and Commit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  unzip_commit_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Unzip gotgbot-2.zip and clean up
+        run: |
+          unzip -q "gotgbot-2.zip" -d temp_unzip/
+          mv temp_unzip/gotgbot-2/* ./
+          rm -rf temp_unzip/ gotgbot-2/
+
+      - name: Commit unzipped files
+        run: |
+          git config --global user.name "hasnainkk-07"
+          git config --global user.email "hasnainkk-07@users.noreply.github.com"
+          git add .
+          git commit -m "Initial commit"
+          git push
+
+
+Isme Jo Noir-main (1) aise karke wahan edit karke gotgbot-v2.zip kardo
