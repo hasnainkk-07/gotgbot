@@ -1,0 +1,26 @@
+name: Replace PaulSonOfLars with hasnainkk-07
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  replace_and_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Replace text in .go files
+        run: |
+          find . -type f -name "*.go" -exec sed -i 's/PaulSonOfLars/hasnainkk-07/g' {} +
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'hasnainkk-07'
+          git config --global user.email 'hasnainkk-07@users.noreply.github.com'
+          git add .
+          git commit -m "Initial commit" || echo "No changes to commit"
+          git push
